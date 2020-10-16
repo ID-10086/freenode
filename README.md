@@ -8,3 +8,7 @@ https://github.com/yanue/V2rayU/releases
 https://github.com/Fndroid/clash_for_windows_pkg/releases
 ### Clash 汉化
 https://github.com/BoyceLig/Clash_Chinese_Patch/releases
+
+### Clash订阅
+https://raw.githubusercontent.com/adiwzx/freenode/main/adiclash.yml
+### v2ray订阅
