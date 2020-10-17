@@ -5,204 +5,196 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡（adi | Clash）, server: 37.120.142.181, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: 🇫🇷 法国（adi | Clash）, server: 185.195.79.3, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: 澳洲（adi | Clash）, server: 45.248.77.235, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: 欧洲（adi | Clash）, server: 195.47.194.34, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: 欧洲（adi | Clash） 2, server: 195.47.194.32, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: 欧洲（adi | Clash） 3, server: 185.164.34.252, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: 🇺🇲 美国（adi | Clash）, server: 58.246.154.29, port: 22401, type: vmess, uuid: 36798492-9036-3a16-9efc-6d2e6fc5a493, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: microsoft.com}}
-  - {name: 澳洲（adi | Clash） 2, server: 124.150.139.27, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
-  - {name: 🇯🇵 日本（adi | Clash）, server: 111.6.78.101, port: 9903, type: vmess, uuid: 36798492-9036-3a16-9efc-6d2e6fc5a493, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: microsoft.com}}
-  - {name: 🇯🇵 日本（adi | Clash） 2, server: 111.6.78.101, port: 9902, type: vmess, uuid: 36798492-9036-3a16-9efc-6d2e6fc5a493, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: microsoft.com}}
-  - {name: 🇯🇵 日本（adi | Clash） 3, server: 111.6.78.101, port: 5805, type: vmess, uuid: 36798492-9036-3a16-9efc-6d2e6fc5a493, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: microsoft.com}}
-  - {name: 西班牙（adi | Clash）, server: 37.120.142.181, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
-  - {name: 🇯🇵 日本（adi | Clash） 4, server: 52.175.16.108, port: 63132, type: vmess, uuid: e3b51fd0-f3f5-4c37-a7bd-c8d7d6069ff4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
-  - {name: 🇯🇵 日本（adi | Clash） 5, server: 108.61.247.78, port: 53561, type: vmess, uuid: afdee80d-ea89-4571-9e61-2d4d4a8e2cf2, alterId: 0, cipher: auto, tls: false}
-  - {name: 澳洲（adi | Clash） 3, server: 144.48.38.147, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
-  - {name: 🇫🇷 法国（adi | Clash） 2, server: 84.247.51.235, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: 🇨🇦 加拿大（adi | Clash）, server: 172.83.40.149, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
-  - {name: 🇨🇦 加拿大（adi | Clash） 2, server: 172.83.40.149, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: 🇯🇵 日本（adi | Clash） 6, server: 111.6.78.101, port: 9901, type: vmess, uuid: 36798492-9036-3a16-9efc-6d2e6fc5a493, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: microsoft.com}}
-  - {name: 🇯🇵 日本（adi | Clash） 7, server: 111.6.78.101, port: 5803, type: vmess, uuid: 36798492-9036-3a16-9efc-6d2e6fc5a493, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: microsoft.com}}
+  - {name: 🇺🇲 美国（ADI|Clash）, server: 158.247.196.164, port: 443, type: vmess, uuid: 347998fa-0d83-11eb-9ef5-560003035fa8, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /gWZuUaSF/, ws-headers: {Host: littlesur.ml}}
+  - {name: 🇺🇲 美国（ADI|Clash） 2, server: 158.247.209.122, port: 443, type: vmess, uuid: 2063b14a-0d77-11eb-b8df-560003035aa6, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /Tl3sdZ8g/, ws-headers: {Host: bigsur.cf}}
+  - {name: 🇺🇲 美国（ADI|Clash） 3, server: 158.247.203.52, port: 443, type: vmess, uuid: f32e6d56-0d7f-11eb-a3a8-560003035dba, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /X6SKpl3P/, ws-headers: {Host: milkgogo.ga}}
+  - {name: 🇯🇵 日本（ADI|Clash）, server: 198.13.63.9, port: 443, type: vmess, uuid: 0ba3767c-0f0d-11eb-becb-560003042c76, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /I4QsXCY2/, ws-headers: {Host: antigfw.cf}}
+  - {name: 🇨🇦 加拿大（ADI|Clash）, server: 64.137.189.88, port: 45678, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国（ADI|Clash） 4, server: 172.247.199.244, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇫🇷 法国（ADI|Clash）, server: 51.89.21.57, port: 443, type: vmess, uuid: 49e62934-7c38-42bb-b7a4-de5107a58509, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.82875.xyz}}
+  - {name: 🇳🇱 荷兰（ADI|Clash）, server: 154.84.1.159, port: 443, type: vmess, uuid: 0af5e8af-8fcb-4db3-8794-8148cb50a772, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.80323287.xyz}}
+  - {name: 🇳🇱 荷兰（ADI|Clash） 2, server: 154.84.1.137, port: 443, type: vmess, uuid: 01d207e9-c633-4164-a3ce-a5d1061865d7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
+  - {name: 🇫🇷 法国（ADI|Clash） 2, server: 51.89.40.143, port: 443, type: vmess, uuid: 24fe9497-b11e-4474-8ddd-63cfc471bbee, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.sikushui.xyz}}
+  - {name: 🇺🇲 美国（ADI|Clash） 5, server: 23.234.230.37, port: 443, type: vmess, uuid: 4c7c65a6-092d-480e-b3b7-54ec337b5c7d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.84564860.xyz}}
+  - {name: 🇺🇲 美国（ADI|Clash） 6, server: 142.0.129.203, port: 443, type: vmess, uuid: b1392b21-6230-4fa5-8445-96b3ccda1efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.687246360.xyz}}
+  - {name: 🇺🇲 美国（ADI|Clash） 7, server: 198.2.222.149, port: 443, type: vmess, uuid: a2d4504e-e90a-4ace-a26d-ec57c2d894a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.22774268.xyz}}
+  - {name: 🇺🇲 美国（ADI|Clash） 8, server: 142.0.132.146, port: 443, type: vmess, uuid: b5d7413b-d865-4723-962e-651f6c75bd6e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.619840417.xyz}}
+  - {name: 🇯🇵 日本（ADI|Clash） 2, server: 172.104.105.143, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: v2ray, ws-headers: {Host: els77.mfjx-vip.xyz}}
+  - {name: 🇩🇪 德国（ADI|Clash）, server: 193.108.118.131, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本（ADI|Clash） 3, server: 167.179.98.126, port: 443, type: vmess, uuid: f36fc1ba-0f06-11eb-ac57-560003042795, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /uC2RcgzL/, ws-headers: {Host: britagood.ml}}
+  - {name: 🇯🇵 日本（ADI|Clash） 4, server: 141.164.43.130, port: 443, type: vmess, uuid: 0e5b3142-0d74-11eb-96db-5600030357d8, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /OfDxmz2X/, ws-headers: {Host: milkgogo.ml}}
+  - {name: 🇯🇵 日本（ADI|Clash） 5, server: 202.182.116.39, port: 443, type: vmess, uuid: 4ab2cdf4-0b93-11eb-9b01-56000302548e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /4H8kWB51/, ws-headers: {Host: fivedemands.ml}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -225,26 +217,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡（adi | Clash）
-      - 🇫🇷 法国（adi | Clash）
-      - 澳洲（adi | Clash）
-      - 欧洲（adi | Clash）
-      - 欧洲（adi | Clash） 2
-      - 欧洲（adi | Clash） 3
-      - 🇺🇲 美国（adi | Clash）
-      - 澳洲（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 3
-      - 西班牙（adi | Clash）
-      - 🇯🇵 日本（adi | Clash） 4
-      - 🇯🇵 日本（adi | Clash） 5
-      - 澳洲（adi | Clash） 3
-      - 🇫🇷 法国（adi | Clash） 2
-      - 🇨🇦 加拿大（adi | Clash）
-      - 🇨🇦 加拿大（adi | Clash） 2
-      - 🇯🇵 日本（adi | Clash） 6
-      - 🇯🇵 日本（adi | Clash） 7
+      - 🇺🇲 美国（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash）
+      - 🇨🇦 加拿大（ADI|Clash）
+      - 🇺🇲 美国（ADI|Clash） 4
+      - 🇫🇷 法国（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash）
+      - 🇳🇱 荷兰（ADI|Clash） 2
+      - 🇫🇷 法国（ADI|Clash） 2
+      - 🇺🇲 美国（ADI|Clash） 5
+      - 🇺🇲 美国（ADI|Clash） 6
+      - 🇺🇲 美国（ADI|Clash） 7
+      - 🇺🇲 美国（ADI|Clash） 8
+      - 🇯🇵 日本（ADI|Clash） 2
+      - 🇩🇪 德国（ADI|Clash）
+      - 🇯🇵 日本（ADI|Clash） 3
+      - 🇯🇵 日本（ADI|Clash） 4
+      - 🇯🇵 日本（ADI|Clash） 5
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -281,6 +272,7 @@ rules:
  - DOMAIN,analytics.strava.com,🎯 全球直连
  - DOMAIN,msg.umeng.com,🎯 全球直连
  - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
  - DOMAIN,app.adjust.com,🎯 全球直连
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
@@ -1431,7 +1423,6 @@ rules:
  - DOMAIN-SUFFIX,security.browser.miui.com,🍃 应用净化
  - DOMAIN-SUFFIX,shenghuo.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
- - DOMAIN-SUFFIX,tracking.miui.com,🍃 应用净化
  - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
