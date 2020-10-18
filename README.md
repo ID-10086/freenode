@@ -12,4 +12,4 @@ https://github.com/BoyceLig/Clash_Chinese_Patch/releases
 ### Clash订阅
 https://raw.githubusercontent.com/adiwzx/freenode/main/adiclash.yml
 ### v2ray订阅
-https://raw.githubusercontent.com/adiwzx/freenode/main/adiv2r.txt
+https://raw.githubusercontent.com/adiwzx/freenode/main/adifree.txt
