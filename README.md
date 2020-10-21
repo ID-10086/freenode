@@ -1,3 +1,9 @@
+### Clash订阅
+https://raw.githubusercontent.com/adiwzx/freenode/main/adiclash.yml
+### v2ray订阅
+https://raw.githubusercontent.com/adiwzx/freenode/main/adifree.txt
+___________________________________________________________________
+
 ### v2rayN Windows客户端
 https://github.com/2dust/v2rayN/releases
 
@@ -15,9 +21,3 @@ https://github.com/BoyceLig/Clash_Chinese_Patch/releases
 
 ### Clash Android 客户端
 https://github.com/Kr328/ClashForAndroid/releases
-
-
-### Clash订阅
-https://raw.githubusercontent.com/adiwzx/freenode/main/adiclash.yml
-### v2ray订阅
-https://raw.githubusercontent.com/adiwzx/freenode/main/adifree.txt
