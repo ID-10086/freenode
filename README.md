@@ -4,7 +4,7 @@ https://github.com/2dust/v2rayN/releases
 ### V2rayU MacOS 客户端
 https://github.com/yanue/V2rayU/releases
 
-###V2rayNG Android 客户端
+### V2rayU Android 客户端
 https://github.com/2dust/v2rayNG/releases
 
 ### Clash 客户端
