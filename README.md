@@ -3,8 +3,8 @@
  https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml 挑选节点 
 
 ### v2ray订阅
-  全部节点 https://raw.githubusercontent.com/adiwzx/freenode/main/adifree.txt 
-  挑选节点 https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt 
+ https://raw.githubusercontent.com/adiwzx/freenode/main/adifree.txt 全部节点 
+ https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt 挑选节点 
 #
 ### v2rayN Windows客户端
  https://github.com/2dust/v2rayN/releases
